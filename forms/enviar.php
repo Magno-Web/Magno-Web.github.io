@@ -16,8 +16,8 @@ $carta = "Asunto: $asunto \n";
 $carta = "Mensaje: $mensaje";
 
 // Enviando Mensaje
-$mail = mail($destinatario, $asunto, $carta);
-if($mail){
+$correo = mail($destinatario, $asunto, $carta);
+if($correo){
     header("Location:mensaje.html");
 }
 
