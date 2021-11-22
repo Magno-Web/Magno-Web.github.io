@@ -11,9 +11,9 @@ $destinatario = "retr01.mx@gmail.com";
 $asunto = "Enviado desde sitio web";
 
 $carta = "De: $nombre \n";
-$carta .= "Correo: $correo \n";
-$carta .= "Asunto: $asunto \n";
-$carta .= "Mensaje: $mensaje";
+$carta = "Correo: $correo \n";
+$carta = "Asunto: $asunto \n";
+$carta = "Mensaje: $mensaje";
 
 // Enviando Mensaje
 $mail = mail($destinatario, $asunto, $carta);
